@@ -6,7 +6,10 @@ import Teacher from "./Teacher";
 import Visitor from "./Visitor";
 import Subject from "./Subject";
 import Notification from "./Notification";
-
+/**
+ * Represents an Activity in the system.
+ * This class extends Subject to allow observers to be notified of changes.
+ */
 export default class Activity extends Subject {
   private id: number;
   private name: string;
